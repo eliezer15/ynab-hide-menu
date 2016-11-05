@@ -1,0 +1,6 @@
+#sidebar-toggle {
+    position: fixed;
+    top: 500px;
+    max-width: 30px;
+    z-index: 1;
+}

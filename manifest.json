@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "ynab-hide-menu",
+    "description":"A plugin that adds a toggle functionality to Ynab's sidebar menu",
+    "version":"0.1.0",
+    "permissions": [
+        "https://app.youneedabudget.com/*"
+    ],
+    "content_scripts": [{
+        "js": ["jquery.js", "main.js"], 
+        "css": ["main.css"],
+        "matches":["https://app.youneedabudget.com/*"]
+    }],
+    "web_accessible_resources": ["arrow.png"]
+}
